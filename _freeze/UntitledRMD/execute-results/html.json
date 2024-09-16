@@ -1,0 +1,14 @@
+{
+  "hash": "c0ba777cb1ed7479cb8ed70ee537c10b",
+  "result": {
+    "markdown": "$$\n\n\\frac{\\sum{x_iy_i} -n\\bar{x}\\bar{y}}{\\sum{x_i^2} - n(\\bar{x})^2}\n\n\n\n\n$$",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
