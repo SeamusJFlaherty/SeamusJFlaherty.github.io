@@ -1,0 +1,60 @@
+---
+title: "Quarto Presentation"
+author: "Seamus Flaherty"
+format: 
+  revealjs:
+    chalkboard: true
+    theme: serif
+code-fold: true
+editor: visual
+---
+
+# Data and Packages
+
+## Import Packages
+```{r , echo = TRUE}
+# echo = true to show code
+#| message: FALSE
+#| warning: FALSE
+#Load Packages
+library(tidyverse)
+library(tidybiology)
+```
+
+## Data Sets
+
+```{r , echo = TRUE}
+data(happy)
+data(happy_join_one)
+data(happy_full)
+```
+
+# First Problem
+
+## Lets look at the data frames via `glimpse()`
+
+```{r}
+glimpse(happy)
+glimpse(happy_join_one)
+glimpse(happy_full)
+```
+
+# Second Problem
+
+## Combining `happy` and `happy_join_one` by rows
+
+```{r , echo = TRUE}
+bind_rows(happy, happy_join_one)
+```
+
+# Third Problem
+
+## Combining `happy` and `happy_join_one` by columns
+
+```{r , echo = TRUE}
+cbind(happy, happy_join_one)
+```
+
+
+
+

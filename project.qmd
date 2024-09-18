@@ -1,8 +1,8 @@
 ---
-title: "Projects"
+title: "2860 Stuff"
 ---
 
-* [Project 1](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* [Quarto Presentation](QuartoPresentation.qmd)
 * [Project 2]()
 * [Project 3]()
 * [Project 4]()
