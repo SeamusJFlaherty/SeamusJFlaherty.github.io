@@ -3,6 +3,7 @@ title: "About Me"
 ---
 
 ![](./PicAndPDFs/image.jpg){width=300}
+
 # Description
 
 

@@ -28,8 +28,6 @@ website:
             href: https://github.com/SeamusJFlaherty/
           - text: Source Code
             href: https://github.com/SeamusJFlaherty/SeamusJFlaherty.github.io/
-          - text: Report a Bug
-            href: https://github.com/SeamusJFlaherty/SeamusJFlaherty.github.io/  
 
 format:
   html:

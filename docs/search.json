@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "2860 Stuff",
+    "section": "",
+    "text": "Quarto Presentation\nProject 2\nProject 3\nProject 4"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Description\n\n\nSchool Experience\n\nAssociates in Science\nBS in Mathematical Statistics\nWill attempt a Masters in Data Science or Analytics\n\n\n\nResume"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seamus Flaherty",
+    "section": "",
+    "text": "It will consist of:\n\nSome stuff about me.\nProjects I have done for many classes.\nMy Degree’s and Resume.\nA link to my LinkedIn page in the top right.\nMy main socials."
+  },
+  {
     "objectID": "QuartoPresentation.html#import-packages",
     "href": "QuartoPresentation.html#import-packages",
     "title": "Quarto Presentation",
@@ -33,26 +54,5 @@
     "title": "Quarto Presentation",
     "section": "Combining happy and happy_join_one by columns",
     "text": "Combining happy and happy_join_one by columns\n\n\nCode\ncbind(happy, happy_join_one)\n\n\n  country_name ladder_score    gdp social_support country_name\n1         Iraq        4.854  9.240          0.746         Iraq\n2      Comoros        4.289  8.031          0.626      Comoros\n3       Panama        6.180 10.350          0.896       Panama\n4     Maldives        5.198  9.826          0.913     Maldives\n5        Spain        6.491 10.571          0.932        Spain\n  healthy_life_expectancy\n1                  60.583\n2                  57.349\n3                  69.652\n4                  70.600\n5                  74.700"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Seamus Flaherty",
-    "section": "",
-    "text": "It will consist of:\n\nSome stuff about me.\nProjects I have done for many classes.\nMy Degree’s and Resume.\nA link to my LinkedIn page in the top right.\nMy main socials."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Associates in Science\nBS in Mathematical Statistics\nWill attempt a Masters in Data Science or Analytics\n\n\nResume"
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "2860 Stuff",
-    "section": "",
-    "text": "Quarto Presentation\nProject 2\nProject 3\nProject 4"
   }
 ]
