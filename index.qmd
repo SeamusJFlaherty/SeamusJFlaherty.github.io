@@ -1,8 +1,14 @@
 ---
-title: "Quarto Web Demo"
+title: "Seamus Flaherty"
 ---
 
-This is the main landing page!
+It will consist of:
+
+* Some stuff about me.
+* Projects I have done for many classes. 
+* My Degree's and Resume. 
+* A link to my LinkedIn page in the top right. 
+* My main socials.
 
 
 

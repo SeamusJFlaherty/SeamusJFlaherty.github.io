@@ -2,6 +2,8 @@
 title: "2860 Stuff"
 ---
 
+
+
 * [Quarto Presentation](QuartoPresentation.qmd)
 * [Project 2]()
 * [Project 3]()

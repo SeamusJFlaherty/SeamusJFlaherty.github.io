@@ -2,8 +2,21 @@
 title: "About Me"
 ---
 
-![ImageOfMe]()
+![](./PicAndPDFs/image.jpg){width=300}
+# Description
 
-![MyExperienceInSchool]()
 
-![Resume]()
+
+# School Experience
+
+* Associates in Science
+
+* BS in Mathematical Statistics
+
+* Will attempt a Masters in Data Science or Analytics
+
+# Resume
+
+![](./PicAndPDFs/SeamusFlahertyResume.pdf){width=600}
+
+# 

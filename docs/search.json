@@ -37,9 +37,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto Web Demo",
+    "title": "Seamus Flaherty",
     "section": "",
-    "text": "This is the main landing page!"
+    "text": "It will consist of:\n\nSome stuff about me.\nProjects I have done for many classes.\nMy Degree’s and Resume.\nA link to my LinkedIn page in the top right.\nMy main socials."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Associates in Science\nBS in Mathematical Statistics\nWill attempt a Masters in Data Science or Analytics\n\n\nResume"
   },
   {
     "objectID": "project.html",

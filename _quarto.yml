@@ -13,17 +13,23 @@ website:
     
     tools:
       - icon: instagram
-        href: https://instagram.com/sflaherty357
-      - icon: twitter
-        href: https://x.com
+        menu:
+          - text: Instagram
+            href: https://instagram.com/sflaherty357
+          - text: Snapchat
+            href: https://www.snapchat.com/add/spdr9044
+          - text: Twitter
+            href: https://x.com/sflaherty357
       - icon: linkedin
-        href: https://www.linkedin.com/
+        href: https://www.linkedin.com/in/seamus-flaherty-45819332b/
       - icon: github
         menu:
+          - text: Github Account
+            href: https://github.com/SeamusJFlaherty/
           - text: Source Code
-            href: https://github.com
+            href: https://github.com/SeamusJFlaherty/SeamusJFlaherty.github.io/
           - text: Report a Bug
-            href: https://github.com  
+            href: https://github.com/SeamusJFlaherty/SeamusJFlaherty.github.io/  
 
 format:
   html:
