@@ -1,0 +1,14 @@
+{
+  "hash": "b22a20a4fa27e05242a655528d5cd2e9",
+  "result": {
+    "markdown": "---\ntitle: \"Project for 2860\"\nauthor: \"Seamus Flaherty\"\ndate: 'Last compiled: Dec 10, 2024'\noutput: ioslides_presentation\n---\n\n\n\n\n## Slide 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

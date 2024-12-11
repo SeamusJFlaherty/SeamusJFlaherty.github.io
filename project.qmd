@@ -5,6 +5,6 @@ title: "2860 Stuff"
 
 
 * [Quarto Presentation](QuartoPresentation.qmd)
-* [Project 2]()
+* [Final Project](PresFor2860.html)
 * [Project 3]()
 * [Project 4]()
