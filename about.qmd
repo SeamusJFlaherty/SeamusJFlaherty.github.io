@@ -2,22 +2,24 @@
 title: "About Me"
 ---
 
-![](./PicAndPDFs/image.jpg){width=300}
+![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}
 
 # Description
 
-
+Will do soon!
 
 # School Experience
 
-* Associates in Science
+* Bachelor of Science - Mathematics and Statistics
+  * Appalachian State University
 
-* BS in Mathematical Statistics
-
-* Will attempt a Masters in Data Science or Analytics
+* Master of Science - Analytics
+  * NC State University, Institute for Advanced Analytics
 
 # Resume
 
-![](./PicAndPDFs/SeamusFlahertyResume.pdf){width=600}
+Will update shortly after resume coaching
 
-# 
+```{r, echo = FALSE}
+#![](./PicAndPDFs/SeamusFlahertyResume.pdf){width=600}
+```

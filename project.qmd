@@ -1,10 +1,8 @@
 ---
-title: "2860 Stuff"
+title: "Projects and Work"
 ---
 
+Also coming soon
 
-
-* [Quarto Presentation](QuartoPresentation.qmd)
-* [Final Project](PresFor2860.html)
 * [Project 3]()
 * [Project 4]()
