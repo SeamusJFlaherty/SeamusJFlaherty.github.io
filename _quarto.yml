@@ -12,14 +12,6 @@ website:
       - project.qmd
     
     tools:
-      - icon: instagram
-        menu:
-          - text: Instagram
-            href: https://instagram.com/sflaherty357
-          - text: Snapchat
-            href: https://www.snapchat.com/add/spdr9044
-          - text: Twitter
-            href: https://x.com/sflaherty357
       - icon: linkedin
         href: https://www.linkedin.com/in/seamus-flaherty-45819332b/
       - icon: github
