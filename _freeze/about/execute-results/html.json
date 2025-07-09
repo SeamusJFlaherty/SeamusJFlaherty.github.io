@@ -1,8 +1,8 @@
 {
-  "hash": "13f74e7b1e8b3f9fdf9d91578272b231",
+  "hash": "d41f06ee7a876f087ac7ffae8a7f0a87",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"About Me\"\n---\n\n\n\n\n![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}\n\n# Description\n\nWill do soon!\n\n# School Experience\n\n* Bachelor of Science - Mathematics and Statistics\n  * Appalachian State University\n\n* Master of Science - Analytics\n  * NC State University, Institute for Advanced Analytics\n\n# Resume\n\nWill update shortly after resume coaching\n\n\n\n\n::: {.cell}\n\n:::\n",
+    "markdown": "---\ntitle: \"About Me\"\n---\n\n\n\n\n![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}{fig-align=\"center\"}\n\n# Description\n\nWill do soon!\n\n# School Experience\n\n* Bachelor of Science - Mathematics and Statistics\n  * Appalachian State University\n\n* Master of Science - Analytics\n  * NC State University, Institute for Advanced Analytics\n\n# Resume\n\nWill update shortly after resume coaching\n\n\n\n\n::: {.cell}\n\n:::\n",
     "supporting": [
       "about_files"
     ],

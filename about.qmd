@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}
+![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}{fig-align="center"}
 
 # Description
 
