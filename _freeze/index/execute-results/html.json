@@ -1,0 +1,17 @@
+{
+  "hash": "7ea753ae475bdaa4fff76e7e2d3ee032",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Seamus Flaherty\"\n---\n\n\n\n![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}\n\n# Description\n\n*Will do soon*\n\n# Resume\n\n*Will update shortly after resume coaching*\n\n\n\n::: {.cell}\n\n:::\n\n\n\n# Education\n\n* Bachelor of Science - Mathematics and Statistics\n  * Appalachian State University\n\n* Master of Science - Analytics\n  * NC State University, Institute for Advanced Analytics",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

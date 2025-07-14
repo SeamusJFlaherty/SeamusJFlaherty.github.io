@@ -6,9 +6,8 @@ website:
   title: "Seamus Flaherty"
   navbar:
     left:
-      - href: index.qmd
+      - href: about.qmd
         text: Home
-      - about.qmd
       - project.qmd
     
     tools:
@@ -23,7 +22,7 @@ website:
 
 format:
   html:
-    theme: superhero  # flatly, litera, lumen, lux, minty, pulse, sandstone, zephyr, quartz, yeti, cosmo, sketchy
+    theme: morph    #superhero # flatly, litera, lumen, lux, minty, pulse, sandstone, zephyr, quartz, yeti, cosmo, sketchy
     css: styles.css
     toc: true
 

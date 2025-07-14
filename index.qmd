@@ -2,7 +2,24 @@
 title: "Seamus Flaherty"
 ---
 
-Work in Progress!
+![](./PicAndPDFs/Seamus_Flaherty.jpg){width=300}
 
+# Description
 
+*Will do soon*
 
+# Resume
+
+*Will update shortly after resume coaching*
+
+```{r, echo = FALSE}
+#![](./PicAndPDFs/SeamusFlahertyResume.pdf){width=600}
+```
+
+# Education
+
+* Bachelor of Science - Mathematics and Statistics
+  * Appalachian State University
+
+* Master of Science - Analytics
+  * NC State University, Institute for Advanced Analytics
