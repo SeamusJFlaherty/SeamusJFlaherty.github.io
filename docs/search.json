@@ -4,146 +4,20 @@
     "href": "project.html",
     "title": "Projects and Work",
     "section": "",
-    "text": "Also coming soon\n\nProject 3\nProject 4"
+    "text": "Also coming soon\n\nCapstone Project done at App State (have to go searching for it in my folders)\nData Column Post (will be put in later this fall)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Description",
+    "section": "",
+    "text": "Description\nWill do soon\n\n\nResume\nWill update shortly after resume coaching\n\n\nSchool Experience\n\nBachelor of Science - Mathematics and Statistics\n\nAppalachian State University\n\nMaster of Science - Analytics\n\nNC State University, Institute for Advanced Analytics"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Seamus Flaherty",
     "section": "",
-    "text": "Work in Progress!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Description\nWill do soon!\n\n\nSchool Experience\n\nBachelor of Science - Mathematics and Statistics\n\nAppalachian State University\n\nMaster of Science - Analytics\n\nNC State University, Institute for Advanced Analytics\n\n\n\n\nResume\nWill update shortly after resume coaching"
-  },
-  {
-    "objectID": "PresFor2860.html",
-    "href": "PresFor2860.html",
-    "title": "Project for 2860",
-    "section": "",
-    "text": "id - Unique ID for each home sold\ndate - Date of the home sale\nprice - Price of each home sold\nbedrooms - Number of bedrooms\nbathrooms - Number of bathrooms, where .5 accounts for a room with a toilet but no shower\nsqft_living - Square footage of the apartments interior living space\nsqft_lot - Square footage of the land space\nfloors - Number of floors"
-  },
-  {
-    "objectID": "PresFor2860.html#variables-and-explanations",
-    "href": "PresFor2860.html#variables-and-explanations",
-    "title": "Project for 2860",
-    "section": "",
-    "text": "id - Unique ID for each home sold\ndate - Date of the home sale\nprice - Price of each home sold\nbedrooms - Number of bedrooms\nbathrooms - Number of bathrooms, where .5 accounts for a room with a toilet but no shower\nsqft_living - Square footage of the apartments interior living space\nsqft_lot - Square footage of the land space\nfloors - Number of floors"
-  },
-  {
-    "objectID": "PresFor2860.html#variables-and-explanations-continued",
-    "href": "PresFor2860.html#variables-and-explanations-continued",
-    "title": "Project for 2860",
-    "section": "Variables and explanations continued",
-    "text": "Variables and explanations continued\nwaterfront - A dummy variable for whether the apartment was overlooking the waterfront or not * 1’s represent a waterfront property, O’s represent a non-waterfront property\nview - An index from 0 to 4 of how good the view of the property was, 0 - lowest, 4 - highest\ncondition - An index from 1 to 5 on the condition of the apartment, 1 - lowest, 4 - highest\ngrade - An index from 1 to 13, where 1-3 falls short of building construction and design, 7 has an average level of construction and design, and 11-13 have a high quality level of construction and design.\nsqft_above - The square footage of the interior housing space that is above ground level"
-  },
-  {
-    "objectID": "PresFor2860.html#variables-and-explanations-continued-again",
-    "href": "PresFor2860.html#variables-and-explanations-continued-again",
-    "title": "Project for 2860",
-    "section": "Variables and explanations continued again",
-    "text": "Variables and explanations continued again\nsqft_basement - The square footage of the interior housing space that is below ground level\nyr_built - The year the house was initially built\nyr_renovated - The year of the house’s last renovation\nzipcode - What zipcode area the house is in\nlat - Lattitude and long - Longitude\nsqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors\nsqft_lot15 - The square footage of the land lots of the nearest 15 neighbors"
-  },
-  {
-    "objectID": "PresFor2860.html#creation-of-new-variables-and-altering-others",
-    "href": "PresFor2860.html#creation-of-new-variables-and-altering-others",
-    "title": "Project for 2860",
-    "section": "Creation of new variables and altering others",
-    "text": "Creation of new variables and altering others\n\nstart_date &lt;- as.Date(\"2014-01-01\")\n\nupdatedhousedata &lt;- housedata %&gt;%\n  mutate(\n    yr_built = as.numeric(format(yr_built, \"%Y\")),\n    yr_renovated = as.numeric(format(yr_renovated, \"%Y\")),\n    days_since_2014 = as.numeric(difftime(date, start_date, units = \"days\"))\n  ) %&gt;%\n  mutate(quality = case_when(\n    grade &gt;= 1 & grade &lt;= 3  ~ \"1\",\n    grade &gt;= 4 & grade &lt;= 11 ~ \"2\",\n    grade &gt;= 12 & grade &lt;= 13 ~ \"3\"\n  ))"
-  },
-  {
-    "objectID": "PresFor2860.html#histogram-of-all-the-prices",
-    "href": "PresFor2860.html#histogram-of-all-the-prices",
-    "title": "Project for 2860",
-    "section": "Histogram of all the prices",
-    "text": "Histogram of all the prices"
-  },
-  {
-    "objectID": "PresFor2860.html#bed-and-bath-relation",
-    "href": "PresFor2860.html#bed-and-bath-relation",
-    "title": "Project for 2860",
-    "section": "Bed and Bath relation",
-    "text": "Bed and Bath relation"
-  },
-  {
-    "objectID": "PresFor2860.html#price-and-yr_built-relation-grouped-by-zipcode",
-    "href": "PresFor2860.html#price-and-yr_built-relation-grouped-by-zipcode",
-    "title": "Project for 2860",
-    "section": "Price and yr_built relation grouped by zipcode",
-    "text": "Price and yr_built relation grouped by zipcode"
-  },
-  {
-    "objectID": "PresFor2860.html#price-and-yr_built-relation-grouped-by-quality",
-    "href": "PresFor2860.html#price-and-yr_built-relation-grouped-by-quality",
-    "title": "Project for 2860",
-    "section": "Price and yr_built relation grouped by quality",
-    "text": "Price and yr_built relation grouped by quality"
-  },
-  {
-    "objectID": "PresFor2860.html#sqft_living15-and-sqft_living-relation",
-    "href": "PresFor2860.html#sqft_living15-and-sqft_living-relation",
-    "title": "Project for 2860",
-    "section": "sqft_living15 and sqft_living relation",
-    "text": "sqft_living15 and sqft_living relation"
-  },
-  {
-    "objectID": "PresFor2860.html#histogram-of-how-many-days-since-2014",
-    "href": "PresFor2860.html#histogram-of-how-many-days-since-2014",
-    "title": "Project for 2860",
-    "section": "Histogram of how many days since 2014",
-    "text": "Histogram of how many days since 2014"
-  },
-  {
-    "objectID": "PresFor2860.html#what-house-is-about-8000000",
-    "href": "PresFor2860.html#what-house-is-about-8000000",
-    "title": "Project for 2860",
-    "section": "What house is about $8,000,000",
-    "text": "What house is about $8,000,000\n\neightmil &lt;- updatedhousedata %&gt;%\n  filter(price &gt; 7500000) %&gt;%\n  select(price,bedrooms,bathrooms,condition,quality, sqft_living )\nglimpse(eightmil)\n\nRows: 1\nColumns: 6\n$ price       &lt;dbl&gt; 7700000\n$ bedrooms    &lt;int&gt; 6\n$ bathrooms   &lt;dbl&gt; 8\n$ condition   &lt;int&gt; 4\n$ quality     &lt;fct&gt; 3\n$ sqft_living &lt;int&gt; 12050"
-  },
-  {
-    "objectID": "PresFor2860.html#image-of-the-house-1137-harvard-ave-e",
-    "href": "PresFor2860.html#image-of-the-house-1137-harvard-ave-e",
-    "title": "Project for 2860",
-    "section": "Image of the house, 1137 Harvard Ave E",
-    "text": "Image of the house, 1137 Harvard Ave E\n\n\n\n\n\n\n\n\n\n\nHigh grade and quality\nNot waterfront, but has a pool.\n6 bed and 8 bath"
-  },
-  {
-    "objectID": "QuartoPresentation.html#import-packages",
-    "href": "QuartoPresentation.html#import-packages",
-    "title": "Quarto Presentation",
-    "section": "Import Packages",
-    "text": "Import Packages\n\n\nCode\n# echo = true to show code\n#| message: FALSE\n#| warning: FALSE\n#Load Packages\nlibrary(tidyverse)\nlibrary(tidybiology)"
-  },
-  {
-    "objectID": "QuartoPresentation.html#data-sets",
-    "href": "QuartoPresentation.html#data-sets",
-    "title": "Quarto Presentation",
-    "section": "Data Sets",
-    "text": "Data Sets\n\n\nCode\ndata(happy)\ndata(happy_join_one)\ndata(happy_full)"
-  },
-  {
-    "objectID": "QuartoPresentation.html#lets-look-at-the-data-frames-via-glimpse",
-    "href": "QuartoPresentation.html#lets-look-at-the-data-frames-via-glimpse",
-    "title": "Quarto Presentation",
-    "section": "Lets look at the data frames via glimpse()",
-    "text": "Lets look at the data frames via glimpse()\n\n\nRows: 5\nColumns: 4\n$ country_name   &lt;chr&gt; \"Iraq\", \"Comoros\", \"Panama\", \"Maldives\", \"Spain\"\n$ ladder_score   &lt;dbl&gt; 4.854, 4.289, 6.180, 5.198, 6.491\n$ gdp            &lt;dbl&gt; 9.240, 8.031, 10.350, 9.826, 10.571\n$ social_support &lt;dbl&gt; 0.746, 0.626, 0.896, 0.913, 0.932\n\n\nRows: 5\nColumns: 2\n$ country_name            &lt;chr&gt; \"Iraq\", \"Comoros\", \"Panama\", \"Maldives\", \"Spai…\n$ healthy_life_expectancy &lt;dbl&gt; 60.583, 57.349, 69.652, 70.600, 74.700\n\n\nRows: 149\nColumns: 20\n$ country_name                              &lt;chr&gt; \"Finland\", \"Denmark\", \"Switz…\n$ region                                    &lt;chr&gt; \"Western Europe\", \"Western E…\n$ ladder_score                              &lt;dbl&gt; 7.842, 7.620, 7.571, 7.554, …\n$ standard_error_of_ladder_score            &lt;dbl&gt; 0.032, 0.035, 0.036, 0.059, …\n$ upperwhisker                              &lt;dbl&gt; 7.904, 7.687, 7.643, 7.670, …\n$ lowerwhisker                              &lt;dbl&gt; 7.780, 7.552, 7.500, 7.438, …\n$ logged_gdp_per_capita                     &lt;dbl&gt; 10.775, 10.933, 11.117, 10.8…\n$ social_support                            &lt;dbl&gt; 0.954, 0.954, 0.942, 0.983, …\n$ healthy_life_expectancy                   &lt;dbl&gt; 72.000, 72.700, 74.400, 73.0…\n$ freedom_to_make_life_choices              &lt;dbl&gt; 0.949, 0.946, 0.919, 0.955, …\n$ generosity                                &lt;dbl&gt; -0.098, 0.030, 0.025, 0.160,…\n$ perceptions_of_corruption                 &lt;dbl&gt; 0.186, 0.179, 0.292, 0.673, …\n$ ladder_score_in_dystopia                  &lt;dbl&gt; 2.43, 2.43, 2.43, 2.43, 2.43…\n$ explained_by_log_gdp_per_capita           &lt;dbl&gt; 1.446, 1.502, 1.566, 1.482, …\n$ explained_by_social_support               &lt;dbl&gt; 1.106, 1.108, 1.079, 1.172, …\n$ explained_by_healthy_life_expectancy      &lt;dbl&gt; 0.741, 0.763, 0.816, 0.772, …\n$ explained_by_freedom_to_make_life_choices &lt;dbl&gt; 0.691, 0.686, 0.653, 0.698, …\n$ explained_by_generosity                   &lt;dbl&gt; 0.124, 0.208, 0.204, 0.293, …\n$ explained_by_perceptions_of_corruption    &lt;dbl&gt; 0.481, 0.485, 0.413, 0.170, …\n$ dystopia_residual                         &lt;dbl&gt; 3.253, 2.868, 2.839, 2.967, …"
-  },
-  {
-    "objectID": "QuartoPresentation.html#combining-happy-and-happy_join_one-by-rows",
-    "href": "QuartoPresentation.html#combining-happy-and-happy_join_one-by-rows",
-    "title": "Quarto Presentation",
-    "section": "Combining happy and happy_join_one by rows",
-    "text": "Combining happy and happy_join_one by rows\n\n\nCode\nbind_rows(happy, happy_join_one)\n\n\n# A tibble: 10 × 5\n   country_name ladder_score   gdp social_support healthy_life_expectancy\n   &lt;chr&gt;               &lt;dbl&gt; &lt;dbl&gt;          &lt;dbl&gt;                   &lt;dbl&gt;\n 1 Iraq                 4.85  9.24          0.746                    NA  \n 2 Comoros              4.29  8.03          0.626                    NA  \n 3 Panama               6.18 10.4           0.896                    NA  \n 4 Maldives             5.20  9.83          0.913                    NA  \n 5 Spain                6.49 10.6           0.932                    NA  \n 6 Iraq                NA    NA            NA                        60.6\n 7 Comoros             NA    NA            NA                        57.3\n 8 Panama              NA    NA            NA                        69.7\n 9 Maldives            NA    NA            NA                        70.6\n10 Spain               NA    NA            NA                        74.7"
-  },
-  {
-    "objectID": "QuartoPresentation.html#combining-happy-and-happy_join_one-by-columns",
-    "href": "QuartoPresentation.html#combining-happy-and-happy_join_one-by-columns",
-    "title": "Quarto Presentation",
-    "section": "Combining happy and happy_join_one by columns",
-    "text": "Combining happy and happy_join_one by columns\n\n\nCode\ncbind(happy, happy_join_one)\n\n\n  country_name ladder_score    gdp social_support country_name\n1         Iraq        4.854  9.240          0.746         Iraq\n2      Comoros        4.289  8.031          0.626      Comoros\n3       Panama        6.180 10.350          0.896       Panama\n4     Maldives        5.198  9.826          0.913     Maldives\n5        Spain        6.491 10.571          0.932        Spain\n  healthy_life_expectancy\n1                  60.583\n2                  57.349\n3                  69.652\n4                  70.600\n5                  74.700"
+    "text": "Description\nWill do soon\n\n\nResume\nWill update shortly after resume coaching\n\n\nEducation\n\nBachelor of Science - Mathematics and Statistics\n\nAppalachian State University\n\nMaster of Science - Analytics\n\nNC State University, Institute for Advanced Analytics"
   }
 ]
