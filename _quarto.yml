@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: "."
 
 website:
   title: "Seamus Flaherty"
@@ -12,7 +12,7 @@ website:
     
     tools:
       - icon: linkedin
-        href: https://www.linkedin.com/in/seamus-flaherty-45819332b/
+        href: https://www.linkedin.com/in/seamusjflaherty/
       - icon: github
         menu:
           - text: Github Account
